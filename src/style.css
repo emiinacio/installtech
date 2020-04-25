@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/********  BARRA INICIAL ************/
+
+header {
+    background: #565453;
+    display: flex;
+}
+
+.menu-1 {
+    display: flex;
+}
+
+.menu-1 p {
+    padding-left: 9vmin;
+    color: #fff;
+    font-size: 14px;
+}
+
+.redes-sociais1 {
+    padding-left: 85vmin;
+}
+
+.redes-sociais1 img {
+    height: 23px;
+    padding: 20px;
+}
+
+.redes-sociais {
+    display: grid;
+    position: fixed;
+    margin: 3vmin 2vmin;
+}
+
+.redes-sociais img {
+    height: 23px;
+    padding: 15px 10px;
+}
+
+/********  NAVEGAÇÃO  ************/
+.menu-2 {
+    margin-left: 8vmin;
+    padding: 2vmin;
+}
+
+.menu-2 img {
+    width: 200px;
+}
+
+#nav {
+    float: right;
+}
+
+#nav ul {
+    margin-right: 10vmin;
+    display: flex;
+}
+
+#nav li {
+    list-style: none;
+}
+
+.menu-2 a {
+    color: #565453;
+    text-decoration: none;
+    padding-left: 5vmin;
+    font-size: 20px;
+}
+
+.menu-2 a:hover {
+    color: #E07800;
+}
+
+/*******  BANNER  ***********/
+
+.section-1 {
+    margin: 5vmin 10vmin;
+}
+
+.section-1 img {
+    opacity: 75%;
+    width: 100%;
+    height: 700px;
+}
+
+.section-1 .banner {
+    overflow: hidden;
+    position: absolute;
+    top: 30vmin;
+    right: 100vmin;
+    height: 90vmin;
+    left: 20vmin;
+    background-color: rgba(226, 123, 7, 0.8);
+    box-shadow: rgba(54, 52, 49, 0.8);
+}
+
+.banner {
+    padding: 10vmin 5vmin;
+}
+
+.banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner h3 {
+    color: white;
+    font-size: 20px;
+    padding-top: 9vmin;
+}
+
+input.text::placeholder {
+    color: white;
+    padding-left: 2vmin;
+    font-size: 2vmin;
+}
+
+input.text {
+    background: transparent;
+    border: 1px solid white;
+    height: 5vmin;
+    width: 45vmin;
+}
+
+input.submit {
+    color: white;
+    background: #565453;
+    border: none;
+    height: 5vmin;
+    margin-left: 2vmin;
+    width: 15vmin;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input.submit:hover {
+    background: rgb(180, 126, 126);
+}
+
+/****** CARTÕES SERVICOS   *****/
+.btn-voltar {
+    position: fixed;
+    bottom: 4%;
+    right: 1%;
+    height: 50px;
+    width: 50px;
+    background: rgba(245, 245, 245, 0.2);
+    border-radius: 50%;
+}
+
+a.btn-voltar-link {
+    text-align: center;
+    display: block;
+    width: 40px;
+    padding: 4px;
+}
+
+/****** CARTÕES SERVICOS   *****/
+
+.section-2 {
+    background: #565453;
+    height: 400px;
+    margin-top: 30vmin;
+    padding: 10vmin;
+}
+
+.service h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.service p {
+    width: 38%;
+    color: white;
+}
+
+.cartao .cards h1 {
+    color: #565453;
+    padding: 2vmin 5vmin 0 5vmin;
+    text-align: left;
+    font: normal normal normal 28px/1.4em spinnaker, sans-serif;
+}
+
+.cartao .cards p {
+    color: #565453;
+    padding: 1vmin 5vmin;
+    text-align: left;
+}
+
+.cartao .cards a {
+    padding: 1vmin 5vmin;
+    text-align: left;
+    text-decoration: none;
+    color: #E07800;
+}
+
+.cartao .cards a:hover {
+    color: rosybrown;
+}
+
+.cartao {
+    display: flex;
+    position: absolute;
+    margin: 0vmin 10vmin;
+    padding: 1vmin 5vmin;
+
+}
+
+.cartao .cards {
+    background: whitesmoke;
+    height: 45vmin;
+    width: 300px;
+    margin: -30vmin 10vmin;
+    box-shadow: 0px 0px 30px 1px rgba(54, 52, 49, 0.2);
+}
+
+.cards .border {
+    border: 3px solid white;
+    left: 4vmin;
+    right: 4vmin;
+
+    bottom: 5vmin;
+    top: 5vmin;
+    position: absolute;
+}
+
+
+/********** FOOTER *******/
+footer {
+    margin: 20vmin 0 0 0;
+    padding: 0 20vmin;
+    height: 700px;
+    background-color: #565453;
+}
+
+footer .title h1 {
+    color: white;
+    text-align: center;
+    padding-top: 12vmin;
+}
+
+footer .form {
+    padding: 0vmin 20vmin;
+    display: list-item;
+    left: 5vmin;
+    list-style: none;
+}
+
+footer .form input {
+    margin-top: 8vmin;
+    margin-left: 4vmin;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 60vmin;
+    left: 3vmin;
+
+}
+
+footer .form button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 60vmin;
+    padding-top: 5vmin;
+}
+
+footer .form textarea {
+    margin-top: 5vmin;
+    margin-left: 4vmin;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 125vmin;
+    left: 3vmin;
+}
+
+footer input::placeholder,
+textarea::placeholder {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+footer .fot {
+    display: flex;
+    padding: 7vmin 20vmin;
+}
+
+footer .fot p {
+    color: white;
+    padding-left: 7vmin;
+}
+
+footer .p p {
+    color: white;
+    padding: 1vmin 26vmin;
+}

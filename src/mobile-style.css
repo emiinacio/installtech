@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 155%;
+        display: none;
+    }
+
+    .menu-1 p {
+        padding-left: 3vmin;
+
+    }
+
+    header {
+        margin: 3vmin 11vmin;
+    }
+
+    .redes-sociais {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu-2 ul {
+
+        padding: 0 12vmin;
+    }
+
+}
